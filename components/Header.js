@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-[#f6f6f6] shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <div className="flex items-center">
   <Link href="/">
-    <Image src="/logo.jpg" alt="YogaBlog Logo" width={200} height={60} />
+    <Image src="/logo.jpg" alt="YogaBlog Logo" />
   </Link>
 </div>
         <nav className="space-x-4">
