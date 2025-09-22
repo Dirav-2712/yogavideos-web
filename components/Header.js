@@ -7,7 +7,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <div className="flex items-center">
   <Link href="/">
-    <Image src="/logo.jpg" alt="YogaBlog Logo" />
+    <Image src="/logo.jpg" alt="YogaBlog Logo" width={120} height={60} />
   </Link>
 </div>
         <nav className="space-x-4">
