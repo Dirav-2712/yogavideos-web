@@ -19,7 +19,7 @@ export default function Home({ posts }) {
         </div>
       </section>
 
-      <section id="latest-posts" className="max-w-5xl mx-auto p-6 scroll-mt-30">
+      <section id="latest-posts" className="max-w-5xl mx-auto p-6 scroll-mt-32">
         <h2 className="text-3xl font-semibold mb-6">Latest Posts</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {latestPosts.map((post) => (
