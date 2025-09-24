@@ -114,7 +114,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-gray-400 py-2 text-sm">
-        © 2025 YogaBlog. All rights reserved.
+        incensesticks.com® is a registered trademark of Soffway, LLC. All rights reserved. 2025
       </div>
     </footer>
   );
