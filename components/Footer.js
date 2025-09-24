@@ -84,26 +84,26 @@ export default function Footer() {
               Subscribe
             </button>
           </form>
-          <div className="flex space-x-3 text-xl">
-            <a href="#" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+          <div className="flex space-x-3 text-xl space-y-6">
+            <a href="https://www.facebook.com/incensesticksdotcom" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
               <FaFacebook />
             </a>
-            <a href="#" className="hover:text-pink-500" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/incensesticks/" className="hover:text-pink-500" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="#" className="hover:text-sky-400" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/incensesticks1" className="hover:text-sky-400" target="_blank" rel="noopener noreferrer">
               <FaTwitter />
             </a>
-            <a href="#" className="hover:text-red-500" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.pinterest.com/incensesticksdotcom/" className="hover:text-red-500" target="_blank" rel="noopener noreferrer">
               <FaPinterest />
             </a>
-            <a href="#" className="hover:text-red-600" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/channel/UCtYevIN1_CN2c0hreXwYGKw" className="hover:text-red-600" target="_blank" rel="noopener noreferrer">
               <FaYoutube />
             </a>
-            <a href="#" className="hover:text-blue-700" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/incensesticks/" className="hover:text-blue-700" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="#" className="hover:text-black" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@incensesticks.shop" className="hover:text-black" target="_blank" rel="noopener noreferrer">
               <FaTiktok />
             </a>
           </div>
