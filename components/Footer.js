@@ -30,7 +30,7 @@ export default function Footer() {
             </Link>
           </span>
 
-          <p className="text-gray-400 text-sm mt-2 space-y-6">
+          <p className="text-gray-400 text-sm mt-2 my-6">
                     Empowering your yoga journey.
                   </p>
 
@@ -84,7 +84,7 @@ export default function Footer() {
               Subscribe
             </button>
           </form>
-          <div className="flex space-x-3 text-xl space-y-6">
+          <div className="flex space-x-3 text-xl my-6">
             <a href="https://www.facebook.com/incensesticksdotcom" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
               <FaFacebook />
             </a>
