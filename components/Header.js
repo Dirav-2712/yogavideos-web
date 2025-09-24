@@ -12,7 +12,7 @@ export default function Header() {
 </div>
         <nav className="space-x-4">
           <Link href="/"><a className="hover:text-blue-500">Home</a></Link>
-          <Link href="/"><a className="hover:text-blue-500">Blog</a></Link>
+          <Link href="/#latest-posts"><a className="hover:text-blue-500">Blog</a></Link>
           <Link href="/about"><a className="hover:text-blue-500">About</a></Link>
           <Link href="/contact"><a className="hover:text-blue-500">Contact</a></Link>
         </nav>
