@@ -57,7 +57,7 @@ export default function Footer() {
           </form>
         </div>
       </div>
-      <div className="text-center text-gray-400 py-2 text-sm">© 2025 YogaBlog. All rights reserved.</div>
+      <div className="text-center text-gray-400 py-2 text-sm">incensesticks.com® is a registered trademark of Soffway, LLC. All rights reserved. 2025</div>
     </footer>
   );
 }
