@@ -74,6 +74,16 @@ export default function Footer() {
         {/* Social + Subscribe */}
         <div className="flex flex-col space-y-2">
           <span className="font-semibold mb-2">Follow & Subscribe</span>
+          <form className="mt-2 flex">
+            <input
+              type="email"
+              placeholder="Email"
+              className="p-2 rounded-l border-none text-black flex-1"
+            />
+            <button className="bg-blue-600 px-4 py-2 rounded-r text-white">
+              Subscribe
+            </button>
+          </form>
           <div className="flex space-x-3 text-xl">
             <a href="#" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
               <FaFacebook />
@@ -97,17 +107,6 @@ export default function Footer() {
               <FaTiktok />
             </a>
           </div>
-
-          <form className="mt-2 flex">
-            <input
-              type="email"
-              placeholder="Email"
-              className="p-2 rounded-l border-none text-black flex-1"
-            />
-            <button className="bg-blue-600 px-4 py-2 rounded-r text-white">
-              Subscribe
-            </button>
-          </form>
         </div>
       </div>
 
