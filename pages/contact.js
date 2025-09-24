@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout>
       <section className="max-w-4xl mx-auto p-6">
         <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-        <p>
+        <p class="my-6 text-center text-lg">
           2905 NE 90th St<br />
           Kirkland, Washington 98033<br />
           United States
