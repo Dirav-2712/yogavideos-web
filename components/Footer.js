@@ -30,7 +30,7 @@ export default function Footer() {
             </Link>
           </span>
 
-          <p className="text-gray-400 text-sm mt-2 my-6">
+          <p className="text-gray-400 text-sm my-6">
                     Empowering your yoga journey.
                   </p>
 
