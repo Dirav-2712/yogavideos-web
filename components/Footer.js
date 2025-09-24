@@ -10,7 +10,7 @@ import {
   FaTiktok,
   FaPhone,
   FaEnvelope,
-} from "react-icons/fa6";
+} from "react-icons/fa6"; 
 
 export default function Footer() {
   return (
