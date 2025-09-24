@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-8 grid md:grid-cols-3 gap-6">
         
         {/* Logo + About + Contact */}
-        <div className="flex flex-col space-y-3">
+        <div className="flex flex-col">
           <span className="text-xl font-bold">
             <Link href="/">
               <Image
