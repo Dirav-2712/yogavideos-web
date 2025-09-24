@@ -1,4 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaPinterest,
+  FaYoutube,
+  FaLinkedin,
+  FaTiktok,
+} from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white mt-12">
@@ -18,10 +28,28 @@ export default function Footer() {
         </div>
         <div className="flex flex-col space-y-2">
           <span className="font-semibold mb-2">Follow & Subscribe</span>
-          <div className="flex space-x-2">
-            <a href="#" className="hover:text-blue-400">FB</a>
-            <a href="#" className="hover:text-blue-400">IG</a>
-            <a href="#" className="hover:text-blue-400">TW</a>
+          <div className="flex space-x-3 text-xl">
+            <a href="#" className="hover:text-blue-500">
+              <FaFacebook />
+            </a>
+            <a href="#" className="hover:text-pink-500">
+              <FaInstagram />
+            </a>
+            <a href="#" className="hover:text-sky-400">
+              <FaTwitter />
+            </a>
+            <a href="#" className="hover:text-red-500">
+              <FaPinterest />
+            </a>
+            <a href="#" className="hover:text-red-600">
+              <FaYoutube />
+            </a>
+            <a href="#" className="hover:text-blue-700">
+              <FaLinkedin />
+            </a>
+            <a href="#" className="hover:text-black">
+              <FaTiktok />
+            </a>
           </div>
           <form className="mt-2">
             <input type="email" placeholder="Email" className="p-2 rounded-l border-none"/>
