@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         {/* Social + Subscribe */}
-        <div className="flex flex-col space-y-2">
+        <div className="flex flex-col">
           <span className="font-semibold mb-2">Follow & Subscribe</span>
           <form className="mt-2 flex">
             <input
