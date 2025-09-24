@@ -48,11 +48,7 @@ export default function Footer() {
                 support@yogavideos.com
               </a>
             </p>
-            <p>
-              2905 NE 90th St<br />
-              Kirkland, Washington 98033<br />
-              United States
-            </p>
+            
           </div>
 
           
