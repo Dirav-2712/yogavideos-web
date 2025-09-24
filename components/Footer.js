@@ -4,7 +4,9 @@ export default function Footer() {
     <footer className="bg-gray-800 text-white mt-12">
       <div className="max-w-6xl mx-auto px-6 py-8 grid md:grid-cols-3 gap-6">
         <div className="flex flex-col space-y-2">
-          <span className="text-xl font-bold">YogaBlog</span>
+          <span className="text-xl font-bold"><Link href="/">
+    <Image src="/logo.jpg" alt="YogaBlog Logo" width={120} height={60} />
+  </Link> </span>
           <p className="text-gray-400 text-sm">Empowering your yoga journey.</p>
         </div>
         <div className="flex flex-col space-y-2">
